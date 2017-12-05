@@ -27,23 +27,28 @@ Sample Request:
   Method: POST              
   URL:https://devqa.rxnt.com/MasterIndexExternalAPIServices/masterindexexternalapi/v1/authentication/AuthenticateUser (Different URL for production)
   
-  `Headers: 
+  ```
+  Headers: 
   {
  	  “Content-Type”: “application/json”
-  }`
+  }
+  ```
   
-  `Body: 
+  ```
+  Body: 
   {
     “Username” : “demouser”,
- 	  “Password”: “demoPassword”	
-  }`
+    “Password”: “demoPassword”	
+  }
+  ```
 
 Parameters:
 - UserName
 - Password
 
 Sample Response:
-  `{
+  ```javascript
+  {
     "AppLoginId": xx,
     "DoctorCompanyId": 3,
     "TokenExpiryDate": "2017-12-01T14:40:03.847Z",
@@ -53,7 +58,7 @@ Sample Response:
     "ValidationMessages": null,
     "ValidationStatus": "Success",
     "Meta": null
-  }`
+  }```
 
 
 

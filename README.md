@@ -68,7 +68,7 @@ Sample Response:
 Sample Request 
 
   Method: POST  
-  URL:https://devqa.rxnt.com/MasterIndexExternalAPIServices/masterindexexternalapi/v1/patientdashboard/patientccd/GetV1PatientInfoByExternalPatientId
+  URL:`https://devqa.rxnt.com/MasterIndexExternalAPIServices/masterindexexternalapi/v1/patientdashboard/patientccd/GetV1PatientInfoByExternalPatientId`
   ```
   Headers:
   {
@@ -144,7 +144,7 @@ The API returns patient data on these different categories:
 Sample Request:
 
   Method: POST 
- URL:https://devqa.rxnt.com/MasterIndexExternalAPIServices/masterindexexternalapi/v1/patientdashboard/patientccd/GetV1PatientInfoByExternalPatientId (Different URL for production)
+ URL:`https://www.rxnt.com/MasterIndexExternalAPIServices/masterindexexternalapi/v1/patientdashboard/patientccd/GetV1PatientInfoByExternalPatientId`
 
 Sample Request 
   ```
@@ -196,7 +196,7 @@ Sample Response:
 The sample request is shown below:
 
   Method: POST
- URL:https://www.rxnt.com/MasterIndexExternalAPIServices/masterindexexternalapi/v1/patientdashboard/patientccd/GetPatientCCDSData
+ URL:`https://www.rxnt.com/MasterIndexExternalAPIServices/masterindexexternalapi/v1/patientdashboard/patientccd/GetPatientCCDSData`
 
 Sample Response (All Data)
 

@@ -26,7 +26,7 @@ The request body should contain the login information provided to the third part
   
 Sample Request:
 
-  Method: POST              
+  Method: **POST**              
   URL:https://www.rxnt.com/MasterIndexExternalAPIServices/masterindexexternalapi/v1/authentication/AuthenticateUser 
   
   ```
@@ -67,7 +67,7 @@ Sample Response:
 
 Sample Request 
 
-  Method: POST  
+  Method: **POST**  
   URL:`https://devqa.rxnt.com/MasterIndexExternalAPIServices/masterindexexternalapi/v1/patientdashboard/patientccd/GetV1PatientInfoByExternalPatientId`
   ```
   Headers:
@@ -143,7 +143,7 @@ The API returns patient data on these different categories:
 
 Sample Request:
 
-  Method: POST 
+  Method: **POST** 
  URL:`https://www.rxnt.com/MasterIndexExternalAPIServices/masterindexexternalapi/v1/patientdashboard/patientccd/GetV1PatientInfoByExternalPatientId`
 
 Sample Request 

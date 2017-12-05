@@ -1,8 +1,61 @@
-## Welcome to GitHub Pages
+## RxNT Clinical Data API 
 
-<a name="asas">You</a> can use the [editor on GitHub](https://github.com/sneu012/api_documentation/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This documentation provides instruction to access RxNT Clinical Data API (RxNT CDAPI). RxNT CDAPI provides access to patients data as part of certification criteria outlined by the Office of the National Coordinator for Health Information Technology (ONC).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This document serves to fulfill the following criterion outlined by ONC.
+- <a name="patSel">Application Access – Patient Selection - 45 CFR 170.315(g)(7) </a>
+- <a name="dataCat"> Application Access – Data Category Request - 45 CFR 170.315(g)(8) </a>
+- <a name="allData">Application Access – All Data Request - 45 CFR 170.315(g)(9) </a>
+
+<div id="patSel" />
+### Application Access – Patient Selection - 45 CFR 170.315(g)(7)
+
+In order to access patient information, any third party application/ patient representative should first be registered to RxNT. For registration, clients need to contact RxNT at **support@rxnt.com** with their information. Upon verification, RxNT will provide appropriate login information to the external parties.
+
+In order to use RxNT CDAPI, developers/ third parties should have access to RxNT ExternalPatientID, which is available to patients in their PHR. Third parties should call the API with the ExternalPatientID in order to access patient clinical information. RxNT uses patient external id as a primary key to return patient clinical data to registered clients. 
+
+RxNT performs check to ensure that the third party has the correct login credentials and access to the patient information through external patient id. If the third party is authorized to access patient data, RxNT authenticates the third party and returns a limited time token which should be used for subsequent API calls. 
+  
+The request body should contain the login information provided to the third party clients : 
+  `{ 
+   “UserName” : “demouser”,
+ 	 “Password”: “demoPassword”
+  }`
+  
+Sample Request:
+
+  Method: POST              
+  URL:https://devqa.rxnt.com/MasterIndexExternalAPIServices/masterindexexternalapi/v1/authentication/AuthenticateUser (Different URL for production)
+  `Headers: 
+  {
+ 	  “Content-Type”: “application/json”
+  }
+  
+  Body: 
+  {
+    “Username” : “demouser”,
+ 	  “Password”: “demoPassword”	
+  }`
+
+Parameters:
+- UserName
+- Password
+
+Sample Response:
+  `{
+    "AppLoginId": xx,
+    "DoctorCompanyId": 3,
+    "TokenExpiryDate": "2017-12-01T14:40:03.847Z",
+    "Token": "xxxxxxx",
+    "Signature": "xxxx+B1XiLQgBLU=",
+    "NoOfDaysToExpire": 300,
+    "ValidationMessages": null,
+    "ValidationStatus": "Success",
+    "Meta": null
+  }`
+
+
+
 
 ### Markdown
 

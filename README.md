@@ -110,3 +110,80 @@ On Failure:
     "Meta": null
   }
   ```
+  
+  ### Application Access – Data Category Request - 45 CFR 170.315(g)(8) 
+  
+  In compliance to 45 CFR 170.315(g)(8), RxNT CDAPI provides access to patient clinical data based on different CCDS data category .
+
+This API responds to requests for patient data for each of the individual data categories specified in the Common Clinical Data Set and return the full set of data for that data category. If an already authenticated user, sends a post request to access a patient’s health information, the API authenticates the user, analyzes the request and returns appropriate response. The API also responds to requests for patient data associated with a specific date as well as requests for patient data within a specified date range
+
+The API returns patient data on these different categories:
+  - Patient Name
+  - Sex
+  - Date of Birth
+  - Race
+  - Ethnicity
+  - Preferred Language
+  - Smoking Status
+  - Problems
+  - Medications
+  - Medication Allergies
+  - Laboratory Tests
+  - Laboratory Values(s)/Result(s)
+  - Vital Signs
+  - Procedures
+  - Care Team Member(s)
+  - Immunizations
+  - Unique Device Identifier(s) for a Patient’s Implantable Device(s)
+  - Assessment and Plan of Treatment
+  - Goals
+  - Health Concerns
+  
+  In order to access patient data for specific category, the categories should be passed as an array of string in the body of the request. The sample request is shown below: 
+
+Sample Request:
+
+  Method: POST 
+ URL:https://devqa.rxnt.com/MasterIndexExternalAPIServices/masterindexexternalapi/v1/patientdashboard/patientccd/GetV1PatientInfoByExternalPatientId (Different URL for production)
+
+Sample Request 
+  ```
+  Headers:
+  {
+    “Content-Type”: “application/json”
+  }
+  ```
+  
+  ```
+  Body:
+  {
+    "DoctorCompanyId": “xxxx”,
+    "Signature": “xxxx”,
+    "Token": “xxxx”,
+    "RequestCompanyId": “xxxx”,
+    "ExternalReferencePatientId": "External Reference Patient ID",
+    "Categories": ["Vital Signs", "Smoking Status"],
+    "FromDate": "2017/01/01",
+    "ToDate": "2017/12/31"
+  }
+  ```
+
+Parameters:
+  - DoctorCompanyId
+  - Signature
+  - Token
+  - RequestCompanyId
+  - ExternalReferencePatientId
+  - Categories
+  - FromDate
+  - ToDate
+
+Sample Response: 
+  ```
+  {
+    "PatientCCDSXml": “Patient Data in XML”
+    "ValidationMessages": null,
+    "ValidationStatus": "Success",
+    "Meta": null	
+  }
+  ```

@@ -17,10 +17,12 @@
   RxNT performs check to ensure that the third party has the correct login credentials and access to the patient information through external patient id. If the third party is authorized to access patient data, RxNT authenticates the third party and returns a limited time token which should be used for subsequent API calls. 
 <div id="req"> </div>
 The request body should contain the login information provided to the third party clients : 
-  `{ 
+  ```
+  { 
    “UserName” : “demouser”,
  	 “Password”: “demoPassword”
-  }`
+  }
+  ```
   
 Sample Request:
 
@@ -30,7 +32,7 @@ Sample Request:
   ```
   Headers: 
   {
- 	  “Content-Type”: “application/json”
+    “Content-Type”: “application/json”
   }
   ```
   
@@ -49,11 +51,11 @@ Parameters:
 Sample Response:
   ```json
   {
-    "AppLoginId": xx,
-    "DoctorCompanyId": 3,
+    "AppLoginId": "loginId",
+    "DoctorCompanyId": DoctorCompanyId,
     "TokenExpiryDate": "2017-12-01T14:40:03.847Z",
-    "Token": "xxxxxxx",
-    "Signature": "xxxx+B1XiLQgBLU=",
+    "Token": "Token",
+    "Signature": "xxxx+B1XiLQgBLU",
     "NoOfDaysToExpire": 300,
     "ValidationMessages": null,
     "ValidationStatus": "Success",
@@ -108,39 +110,3 @@ On Failure:
     "Meta": null
   }
   ```
-
-
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-- [Hello](#foo)
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-<div id="asas"></div>For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sneu012/api_documentation/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.

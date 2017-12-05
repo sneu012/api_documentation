@@ -115,7 +115,7 @@ On Failure:
   
   In compliance to 45 CFR 170.315(g)(8), RxNT CDAPI provides access to patient clinical data based on different CCDS data category .
 
-This API responds to requests for patient data for each of the individual data categories specified in the Common Clinical Data Set and return the full set of data for that data category. If an already authenticated user, sends a post request to access a patient’s health information, the API authenticates the user, analyzes the request and returns appropriate response. The API also responds to requests for patient data associated with a specific date as well as requests for patient data within a specified date range
+This API responds to requests for patient data for each of the individual data categories specified in the Common Clinical Data Set and return the full set of data for that data category. If an already authenticated user, sends a post request to access a patient’s health information, the API authenticates the user, analyzes the request and returns appropriate response. The API also responds to requests for patient data associated with a specific date as well as requests for patient data within a specified date range.
 
 The API returns patient data on these different categories:
   - Patient Name
@@ -139,7 +139,9 @@ The API returns patient data on these different categories:
   - Goals
   - Health Concerns
   
-  In order to access patient data for specific category, the categories should be passed as an array of string in the body of the request. The sample request is shown below: 
+  In order to access patient data for specific category, the categories should be passed as an array of string in the body of the request. The category string should follow the exact format as in [2015 Edition Common Clinical Data Set - 45 CFR 170.102](https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf).
+
+The sample request is shown below: 
 
 Sample Request:
 
@@ -187,6 +189,8 @@ Sample Response:
     "Meta": null	
   }
   ```
+  In order to get patient data for a specific date, fields FromDate and ToDate should be same.
+  
 <div id="allData"> </div>  
 ### Application Access – All Data Request - 45 CFR 170.315(g)(9)
   
@@ -237,5 +241,6 @@ Sample Response
     "Meta": null
   }
   ```
+In order to get patient data for a specific date, fields FromDate and ToDate should be same.
   
 ### [Click Here to View RxNTs Privacy Policy](https://www.rxnt.com/privacy-policy/)

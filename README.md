@@ -1,6 +1,6 @@
 ## RxNT Clinical Data API 
 
-  <a id="request" > This </a> documentation provides instruction to access RxNT Clinical Data API (RxNT CDAPI). RxNT CDAPI provides access to patients data as part of certification criteria outlined by the Office of the National Coordinator for Health Information Technology (ONC).
+  <a name="request">This</a> documentation provides instruction to access RxNT Clinical Data API (RxNT CDAPI). RxNT CDAPI provides access to patients data as part of certification criteria outlined by the Office of the National Coordinator for Health Information Technology (ONC).
 
   This document serves to fulfill the following criterion outlined by ONC.
 - <a name="patSel">Patient</a>
@@ -15,7 +15,7 @@
   In order to use RxNT CDAPI, developers/ third parties should have access to RxNT ExternalPatientID, which is available to patients in their PHR. Third parties should call the API with the ExternalPatientID in order to access patient clinical information. RxNT uses patient external id as a primary key to return patient clinical data to registered clients. 
 
   RxNT performs check to ensure that the third party has the correct login credentials and access to the patient information through external patient id. If the third party is authorized to access patient data, RxNT authenticates the third party and returns a limited time token which should be used for subsequent API calls. 
-<div id="req"> </div>
+<div id="request"> </div>
 The request body should contain the login information provided to the third party clients : 
   ```
   { 

@@ -20,7 +20,7 @@ The request body should contain the login information provided to the third part
   ```
   { 
    “UserName” : “demouser”,
- 	 “Password”: “demoPassword”
+   “Password”: “demoPassword”
   }
   ```
   
@@ -49,7 +49,7 @@ Parameters:
 - Password
 
 Sample Response:
-  ```json
+  ```
   {
     "AppLoginId": "loginId",
     "DoctorCompanyId": DoctorCompanyId,
@@ -72,7 +72,7 @@ Sample Request
   ```
   Headers:
   {
- 	  “Content-Type”: “application/json”
+    “Content-Type”: “application/json”
   }
   ```
   ```

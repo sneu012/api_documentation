@@ -238,4 +238,4 @@ Sample Response
   }
   ```
   
-  ### [CLick Here to View RxNTs Privacy Policy](https://www.rxnt.com/privacy-policy/)
+  ### [Click Here to View RxNTs Privacy Policy](https://www.rxnt.com/privacy-policy/)

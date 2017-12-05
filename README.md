@@ -25,7 +25,7 @@ The request body should contain the login information provided to the third part
 Sample Request:
 
   Method: POST              
-  URL:https://devqa.rxnt.com/MasterIndexExternalAPIServices/masterindexexternalapi/v1/authentication/AuthenticateUser (Different URL for production)
+  URL:https://www.rxnt.com/MasterIndexExternalAPIServices/masterindexexternalapi/v1/authentication/AuthenticateUser 
   
   `
   Headers: 
@@ -59,7 +59,53 @@ Sample Response:
     "ValidationStatus": "Success",
     "Meta": null
   }```
+  
+  Third parties need to get External Reference Patient ID from patients in order to access their clinical data. We have created an API that checks to see if the External Patient Reference ID exists, so that third parties can make sure they have the correct External Patient Id exists before calling the API for data access.
 
+Sample Request 
+
+  Method: POST  
+  URL:https://devqa.rxnt.com/MasterIndexExternalAPIServices/masterindexexternalapi/v1/patientdashboard/patientccd/GetV1PatientInfoByExternalPatientId
+  `
+  Headers:
+  {
+ 	  “Content-Type”: “application/json”
+  }
+  `
+  `
+  Body: 
+  {
+    "DoctorCompanyId": “xxxx”,
+    "Signature": “xxxx”,
+    "Token": “xxxx”},
+    "RequestCompanyId": “xxxx”,
+    "ExternalReferencePatientId": "External Reference Patient Id"
+  }
+  `
+
+Sample Response
+
+  On Success:
+  `
+  {
+    "ExternalReferencePatientId": "External Reference Patient Id",
+    "ValidationMessages": null,
+    "ValidationStatus": "Success", 
+    "Meta": null
+  }
+  `
+
+On Failure:
+  
+  `
+  {
+    "ExternalReferencePatientId": null,
+    "ValidationMessages": [
+        "Patient doesn't exists with the External Reference Patient Id: xxxx"
+    ],
+    "ValidationStatus": "Failed",
+    "Meta": null
+  }`
 
 
 

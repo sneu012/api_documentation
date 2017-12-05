@@ -2,7 +2,7 @@
 
 This documentation provides instruction to access RxNT Clinical Data API (RxNT CDAPI). RxNT CDAPI provides access to patients data as part of certification criteria outlined by the Office of the National Coordinator for Health Information Technology (ONC).
 
-  This document serves to fulfill the following criterion outlined by ONC.
+This document should be used by third parties as a reference to access patient clinical data. This document serves to fulfill the following criterion outlined by ONC.
 - <a href="#patSel">Application Access – Patient Selection - 45 CFR 170.315(g)(7)</a>
 - <a href="#dataCat"> Application Access – Data Category Request - 45 CFR 170.315(g)(8) </a>
 - <a href="#allData">Application Access – All Data Request - 45 CFR 170.315(g)(9) </a>
@@ -10,13 +10,16 @@ This documentation provides instruction to access RxNT Clinical Data API (RxNT C
 <div id="patSel"></div>
 ### Application Access – Patient Selection - 45 CFR 170.315(g)(7)
 
-  In order to access patient information, any third party application/ patient representative should first be registered to RxNT. For registration, clients need to contact RxNT at **support@rxnt.com** with their information. Upon verification, RxNT will provide appropriate login information to the external parties.
+In complaince to 45 CFR 170.315(g)(7), RxNT CDAPI provides an API that receives a request from another software component/service with identifying information about a patient and returns a unique token specific to that patient.
 
-  In order to use RxNT CDAPI, developers/ third parties should have access to RxNT ExternalPatientID, which is available to patients in their PHR. Third parties should call the API with the ExternalPatientID in order to access patient clinical information. RxNT uses patient external id as a primary key to return patient clinical data to registered clients. 
+  In order to access patient information, any third party application/ patient representative should first be registered to RxNT. For registration, clients need to contact RxNT at **support@rxnt.com** with their information. Upon verification, RxNT will provide appropriate login information to the external clients and this API authenticates third party clients.
 
-  RxNT performs check to ensure that the third party has the correct login credentials and access to the patient information through external patient id. If the third party is authorized to access patient data, RxNT authenticates the third party and returns a limited time token which should be used for subsequent API calls. 
+  RxNT performs check to ensure that the third party has the correct login credentials and access to the patient information. If the third party is authorized to access patient data, RxNT authenticates the third party and returns a limited time token which should be used for subsequent API calls.
+  
 <div id="request"> </div>
-The request body should contain the login information provided to the third party clients : 
+
+The request body should contain the following login information provided to them by RxNT.
+
   ```
   { 
    “UserName” : “demouser”,
@@ -53,17 +56,19 @@ Sample Response:
   {
     "AppLoginId": "loginId",
     "DoctorCompanyId": "DoctorCompanyId",
-    "TokenExpiryDate": "2017-12-01T14:40:03.847Z",
+    "TokenExpiryDate": "TokenExpiryDate",
     "Token": "Token",
-    "Signature": "xxxx+B1XiLQgBLU",
-    "NoOfDaysToExpire": 300,
+    "Signature": "Signature",
+    "NoOfDaysToExpire": "NumberOfDaysToExpire",
     "ValidationMessages": null,
     "ValidationStatus": "Success",
     "Meta": null
   }
   ```
   
-  Third parties need to get External Reference Patient ID from patients in order to access their clinical data. We have created an API that checks to see if the External Patient Reference ID exists, so that third parties can make sure they have the correct External Patient Id exists before calling the API for data access.
+   In order to access RxNT CDAPI, developers/ third parties should have access to RxNT ExternalReferencePatientId, which is available to registered patients in their PHR. Third parties should call our API with the ExternalPatientId in order to access patient clinical information. RxNT uses patient external id as a primary key to return patient clinical data to registered third party clients. 
+  
+  We have created an API that checks to see if the ExternalPatientReferenceId exists, so that third parties can make sure they have the correct ExternalReferencePatientId exists before calling the API for data access.
 
 Sample Request 
 
@@ -78,11 +83,11 @@ Sample Request
   ```
   Body: 
   {
-    "DoctorCompanyId": “xxxx”,
-    "Signature": “xxxx”,
-    "Token": “xxxx”},
-    "RequestCompanyId": “xxxx”,
-    "ExternalReferencePatientId": "External Reference Patient Id"
+    "DoctorCompanyId": “DoctorCompanyId”,
+    "Signature": “Signature”,
+    "Token": “Token”,
+    "RequestCompanyId": “RequestCompanyId”,
+    "ExternalReferencePatientId": "ExternalReferencePatientId"
   }
   ```
 
@@ -91,7 +96,7 @@ Sample Response
   On Success:
   ```
   {
-    "ExternalReferencePatientId": "External Reference Patient Id",
+    "ExternalReferencePatientId": "ExternalReferencePatientId",
     "ValidationMessages": null,
     "ValidationStatus": "Success", 
     "Meta": null
@@ -110,6 +115,7 @@ On Failure:
     "Meta": null
   }
   ```
+  
 <div id="dataCat"></div>  
 ### Application Access – Data Category Request - 45 CFR 170.315(g)(8) 
   
@@ -139,7 +145,7 @@ The API returns patient data on these different categories:
   - Goals
   - Health Concerns
   
-  In order to access patient data for specific category, the categories should be passed as an array of string in the body of the request. The category string should follow the exact format as in [2015 Edition Common Clinical Data Set - 45 CFR 170.102](https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf).
+  In order to access patient data for specific category, the categories should be passed as an array of string in the body of the request. The category string should follow the exact same format as in [2015 Edition Common Clinical Data Set - 45 CFR 170.102](https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf).
 
 The sample request is shown below: 
 
@@ -159,11 +165,11 @@ Sample Request
   ```
   Body:
   {
-    "DoctorCompanyId": “xxxx”,
-    "Signature": “xxxx”,
-    "Token": “xxxx”,
-    "RequestCompanyId": “xxxx”,
-    "ExternalReferencePatientId": "External Reference Patient ID",
+    "DoctorCompanyId": “DoctorCompanyId”,
+    "Signature": “Signature”,
+    "Token": “Token”,
+    "RequestCompanyId": “RequestCompanyId”,
+    "ExternalReferencePatientId": "ExternalReferencePatientID",
     "Categories": ["Vital Signs", "Smoking Status"],
     "FromDate": "2017/01/01",
     "ToDate": "2017/12/31"
@@ -213,11 +219,11 @@ Headers:
   ```
   Body:
   {
-    "DoctorCompanyId": “xxxx”,
-    "Signature": “xxxx”,
-    "Token": “xxxx”,
-    "RequestCompanyId": “xxxx”,
-    "ExternalReferencePatientId": "External Reference Patient ID",
+    "DoctorCompanyId": “DoctorCompanyId”,
+    "Signature": “Signature”,
+    "Token": “Token”,
+    "RequestCompanyId": “RequestCompanyId”,
+    "ExternalReferencePatientId": "ExternalReferencePatientId",
     "FromDate": "2017/01/01",
     "ToDate": "2017/12/31"
   }

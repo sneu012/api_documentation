@@ -27,20 +27,20 @@ Sample Request:
   Method: POST              
   URL:https://devqa.rxnt.com/MasterIndexExternalAPIServices/masterindexexternalapi/v1/authentication/AuthenticateUser (Different URL for production)
   
-  ```
+  `
   Headers: 
   {
  	  “Content-Type”: “application/json”
   }
-  ```
+  `
   
-  ```
+  `
   Body: 
   {
     “Username” : “demouser”,
     “Password”: “demoPassword”	
   }
-  ```
+  `
 
 Parameters:
 - UserName

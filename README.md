@@ -3,7 +3,7 @@
   This documentation provides instruction to access RxNT Clinical Data API (RxNT CDAPI). RxNT CDAPI provides access to patients data as part of certification criteria outlined by the Office of the National Coordinator for Health Information Technology (ONC).
 
   This document serves to fulfill the following criterion outlined by ONC.
-- <a name="patSel">Application Access – Patient Selection - 45 CFR 170.315(g)(7) </a>
+- <a name="patSel">Patient Selection</a>
 - <a name="dataCat"> Application Access – Data Category Request - 45 CFR 170.315(g)(8) </a>
 - <a name="allData">Application Access – All Data Request - 45 CFR 170.315(g)(9) </a>
 

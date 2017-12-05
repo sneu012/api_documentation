@@ -52,7 +52,7 @@ Sample Response:
   ```
   {
     "AppLoginId": "loginId",
-    "DoctorCompanyId": DoctorCompanyId,
+    "DoctorCompanyId": "DoctorCompanyId",
     "TokenExpiryDate": "2017-12-01T14:40:03.847Z",
     "Token": "Token",
     "Signature": "xxxx+B1XiLQgBLU",

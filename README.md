@@ -203,7 +203,7 @@ Sample Response (All Data)
 Headers:
   ```
   {
-    “Content-Type”: “application/jsom”
+    “Content-Type”: “application/json”
   }
   ```
   ```

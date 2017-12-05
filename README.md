@@ -4,8 +4,8 @@ This documentation provides instruction to access RxNT Clinical Data API (RxNT C
 
   This document serves to fulfill the following criterion outlined by ONC.
 - <a href="#patSel">Application Access – Patient Selection - 45 CFR 170.315(g)(7)</a>
-- <a name="dataCat"> Application Access – Data Category Request - 45 CFR 170.315(g)(8) </a>
-- <a name="allData">Application Access – All Data Request - 45 CFR 170.315(g)(9) </a>
+- <a href="#dataCat"> Application Access – Data Category Request - 45 CFR 170.315(g)(8) </a>
+- <a href="#allData">Application Access – All Data Request - 45 CFR 170.315(g)(9) </a>
 
 <div id="patSel"></div>
 ### Application Access – Patient Selection - 45 CFR 170.315(g)(7)
@@ -110,8 +110,8 @@ On Failure:
     "Meta": null
   }
   ```
-  
-  ### Application Access – Data Category Request - 45 CFR 170.315(g)(8) 
+<div id="dataCat"></div>  
+### Application Access – Data Category Request - 45 CFR 170.315(g)(8) 
   
   In compliance to 45 CFR 170.315(g)(8), RxNT CDAPI provides access to patient clinical data based on different CCDS data category .
 
@@ -185,5 +185,55 @@ Sample Response:
     "ValidationMessages": null,
     "ValidationStatus": "Success",
     "Meta": null	
+  }
+  ```
+<div id="alldata"> </div>  
+### Application Access – All Data Request - 45 CFR 170.315(g)(9)
+  
+  RxNT CDAPI provides access to patient clinical data, in compliance to 45 CFR 170.315(g)(9). This API respond to requests for patient data for all of the data categories specified in the Common Clinical Data. The API also responds to  requests for patient data associated with a specific date as well as requests for patient data within a specified date range.
+
+
+The sample request is shown below:
+
+  Method: POST
+ URL:https://www.rxnt.com/MasterIndexExternalAPIServices/masterindexexternalapi/v1/patientdashboard/patientccd/GetPatientCCDSData
+
+Sample Response (All Data)
+
+Headers:
+  ```
+  {
+    “Content-Type”: “application/jsom”
+  }
+  ```
+  ```
+  Body:
+  {
+    "DoctorCompanyId": “xxxx”,
+    "Signature": “xxxx”,
+    "Token": “xxxx”,
+    "RequestCompanyId": “xxxx”,
+    "ExternalReferencePatientId": "External Reference Patient ID",
+    "FromDate": "2017/01/01",
+    "ToDate": "2017/12/31"
+  }
+  ```
+  
+Parameters:
+  - DoctorCompanyId
+  - Signature
+  - Token
+  - RequestCompanyId
+  - ExternalReferencePatientId
+  - FromDate
+  - ToDate
+
+Sample Response
+  ```
+  {
+    "PatientCCDSXml": “CCDS XML”,
+    "ValidationMessages": null,
+    "ValidationStatus": "Success",
+    "Meta": null
   }
   ```

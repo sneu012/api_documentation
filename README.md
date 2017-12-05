@@ -1,6 +1,6 @@
 ## RxNT Clinical Data API 
 
-  <a name="request">This</a> documentation provides instruction to access RxNT Clinical Data API (RxNT CDAPI). RxNT CDAPI provides access to patients data as part of certification criteria outlined by the Office of the National Coordinator for Health Information Technology (ONC).
+  <a href="#request">This</a> documentation provides instruction to access RxNT Clinical Data API (RxNT CDAPI). RxNT CDAPI provides access to patients data as part of certification criteria outlined by the Office of the National Coordinator for Health Information Technology (ONC).
 
   This document serves to fulfill the following criterion outlined by ONC.
 - <a name="patSel">Patient</a>

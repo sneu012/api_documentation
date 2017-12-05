@@ -27,7 +27,7 @@ The request body should contain the login information provided to the third part
 Sample Request:
 
   Method: **POST**              
-  URL:https://www.rxnt.com/MasterIndexExternalAPIServices/masterindexexternalapi/v1/authentication/AuthenticateUser 
+  URL:`https://www.rxnt.com/MasterIndexExternalAPIServices/masterindexexternalapi/v1/authentication/AuthenticateUser`
   
   ```
   Headers: 

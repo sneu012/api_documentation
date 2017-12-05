@@ -187,7 +187,7 @@ Sample Response:
     "Meta": null	
   }
   ```
-<div id="alldata"> </div>  
+<div id="allData"> </div>  
 ### Application Access – All Data Request - 45 CFR 170.315(g)(9)
   
   RxNT CDAPI provides access to patient clinical data, in compliance to 45 CFR 170.315(g)(9). This API respond to requests for patient data for all of the data categories specified in the Common Clinical Data. The API also responds to  requests for patient data associated with a specific date as well as requests for patient data within a specified date range.

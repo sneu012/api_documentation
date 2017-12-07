@@ -135,12 +135,12 @@ The API returns patient data on these different categories:
   - Medications
   - Medication Allergies
   - Laboratory Tests
-  - Laboratory Values(s)/Result(s)
+  - Laboratory Value(s)/Result(s)
   - Vital Signs
   - Procedures
   - Care Team Member(s)
   - Immunizations
-  - Unique Device Identifier(s) for a Patient’s Implantable Device(s)
+  - Unique Device Identifier(s) for a Patient's Implantable Device(s)
   - Assessment and Plan of Treatment
   - Goals
   - Health Concerns

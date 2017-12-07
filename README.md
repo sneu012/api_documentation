@@ -30,7 +30,8 @@ The request body should contain the following login information provided to them
 Sample Request:
 
   Method: **POST**              
-  URL:`https://www.rxnt.com/MasterIndexExternalAPIServices/masterindexexternalapi/v1/authentication/AuthenticateUser`
+  URL:`https://www.rxnt.com/MasterIndexExternalAPIServices/
+  masterindexexternalapi/v1/authentication/AuthenticateUser`
   
   ```
   Headers: 
@@ -73,7 +74,8 @@ Sample Response:
 Sample Request 
 
   Method: **POST**  
-  URL:`https://devqa.rxnt.com/MasterIndexExternalAPIServices/masterindexexternalapi/v1/patientdashboard/patientccd/GetV1PatientInfoByExternalPatientId`
+  URL:`https://devqa.rxnt.com/MasterIndexExternalAPIServices/masterindexexternalapi
+  /v1/patientdashboard/patientccd/GetV1PatientInfoByExternalPatientId`
   ```
   Headers:
   {
@@ -152,7 +154,8 @@ The sample request is shown below:
 Sample Request:
 
   Method: **POST** 
- URL:`https://www.rxnt.com/MasterIndexExternalAPIServices/masterindexexternalapi/v1/patientdashboard/patientccd/GetV1PatientInfoByExternalPatientId`
+ URL:`https://www.rxnt.com/MasterIndexExternalAPIServices/masterindexexternalapi/
+ v1/patientdashboard/patientccd/GetV1PatientInfoByExternalPatientId`
 
 Sample Request 
   ```

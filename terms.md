@@ -1,4 +1,4 @@
-<center>## TERMS OF USE</center>
+<center>###TERMS OF USE</center>
 
 Thank you for using the RxNT Clinical Data API.
 
@@ -11,9 +11,11 @@ In these API Terms of Use (“Terms”) “RxNT” refers to Networking Technolo
 2. **ACCEPTING THE TERMS**
 
     a. Legal Age
+    
     You represent and warrant that you are at least 18 years of age and that you possess the legal right and ability to agree to these Terms and to use the RxNT API in accordance with these Terms.
 
      b. Entity Level Acceptance 
+     
   If you are using the RxNT API on behalf of an entity, you represent and warrant that you have authority to bind that entity to the Terms and by accepting the Terms, you are doing so on behalf of that entity (and all references to “you” in the Terms refer to that entity).
 
 3. **CHANGES**

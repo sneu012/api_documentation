@@ -59,9 +59,9 @@ In these API Terms of Use (“Terms”) “RxNT” refers to Networking Technolo
     When using the RxNT API, you may not (or allow those acting on your behalf to):
     
     a. Sell, lease or sublicense the RxNT API or any data derived through the RxNT API <br />
-    b. Reverse engineer or attempt to extract the source code from any API or any related software, except to the extent that this restriction is expressly prohibited by applicable law. <br />
-    c. Perform an Action with the intent of introducing to the RxNT API any viruses, defects, malware, or any items of a destructive nature. <br />
-    d. Interfere with or disrupt the RxNT API or the servers or networks providing the RxNT API.  
+    b. Reverse engineer or attempt to extract the source code from any API or any related software, except to the extent that this restriction is expressly prohibited by applicable law <br />
+    c. Perform an Action with the intent of introducing to the RxNT API any viruses, defects, malware, or any items of a destructive nature <br />
+    d. Interfere with or disrupt the RxNT API or the servers or networks providing the RxNT API  
 
 7. **RxNT API LIMITATIONS**
 
@@ -83,7 +83,7 @@ In these API Terms of Use (“Terms”) “RxNT” refers to Networking Technolo
 
 10. **DISCLAIMERS**
 
-    This site and the RxNT API are provided on an “as is” and “as available” basis.  You expressly agree that use of this site and/or the RxNT api is at your sole risk.  To the fullest extent permitted by law, RxNT and its officers, directors, employees, agents, affiliates, information providers and suppliers disclaim all warranties of any kind, whether express or implied, including without limitation any warranty of merchantability, fitness for a particular purpose, title, or non-infringement.  RxNT makes no representations about the suitability, reliability, availability, and accuracy of the RxNT API or other information, technology, software, products, services and related graphics provided by RxNT for any purpose.
+    This site and the RxNT API are provided on an “as is” and “as available” basis.  You expressly agree that use of this site and/or the RxNT API is at your sole risk.  To the fullest extent permitted by law, RxNT and its officers, directors, employees, agents, affiliates, information providers and suppliers disclaim all warranties of any kind, whether express or implied, including without limitation any warranty of merchantability, fitness for a particular purpose, title, or non-infringement.  RxNT makes no representations about the suitability, reliability, availability, and accuracy of the RxNT API or other information, technology, software, products, services and related graphics provided by RxNT for any purpose.
 
 11. **LIMITATION OF LIABILITY**
 
@@ -105,4 +105,4 @@ In these API Terms of Use (“Terms”) “RxNT” refers to Networking Technolo
 
     These Terms shall be governed by and construed in accordance with the laws of the state of Maryland.  Any and all claims arising out of or relating to these Terms shall be brought in a state or federal court of competent jurisdiction.  You consent to the personal and subject matter jurisdiction of the state and/or federal courts and waive (a) any objection to jurisdiction or venue, or (b) any defense claiming lack of jurisdiction or improper venue, in any action brought in such courts.
 
-<center>  | Networking Technology, Inc. 1449 Whitehall Road, Annapolis, MD 21409 |  </center>
+<center>  | Networking Technology, Inc. dba “RxNT”|1449 Whitehall Road, Annapolis, MD 21409|800-943-7968 |  </center>

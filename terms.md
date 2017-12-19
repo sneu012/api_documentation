@@ -21,26 +21,33 @@ In these API Terms of Use (“Terms”) “RxNT” refers to Networking Technolo
 3. **CHANGES**
 
     a. To RxNT API
+    
     RxNT may modify or update the RxNT API from time to time. We will try to ensure, as far as possible, that future version(s) of the RxNT API are backwards compatible with at least the most recent previous version, but cannot guarantee that this will always be possible. You should adapt your app to use the most up-to-date version of the RxNT API promptly following release by RxNT.  
 
     b. To RxNT API Terms of Use
+    
     RxNT may change and update these Terms from time to time, and will publish any changes on this page.  Make sure to check this page for any updates.  Your continued use of the API after any such changes constitutes your acceptance of the new terms.   If you are unable to comply with any amended version of the Terms, you should stop use of the RxNT API immediately.
 
 4. **RESPONSIBILITIES AND REPRESENTATIONS**
 
     a. Compliance
+    
     You agree to comply with all applicable laws, rules and regulations relating to the use of the RxNT API.
 
     b. Registration
+    
      You agree to register your app with an HCO that has implemented the RxNT API.  You represent and warrant that the registration information you provide to HCO is accurate.
 
     c. App
+    
     You represent and warrant that your app is stable.
 
     d. Support
+    
     You agree to provide meaningful customer support for your app and to make it easy for customers to contact you with questions and concerns.
 
     e. Privacy Policy
+    
     You agree to provide and comply with a publicly accessible privacy policy.  
 
 5. **HEALTH CARE ORGANIZATION**
@@ -61,9 +68,13 @@ In these API Terms of Use (“Terms”) “RxNT” refers to Networking Technolo
     RxNT sets and enforces limits on your use of the RxNT API, in our sole discretion, without notice or liability.   RxNT reserves the right to:  
 
     a. Rate limit or block apps that make a large number of calls to the RxNT API 
+    
     b. Disable, restrict or remove your app’s access to the RxNT API 
+    
     c. Change, suspend, or discontinue the availability of the RxNT API at any time 
+    
     d. Impose limits on certain features or restrict your access to parts or all of the RxNT API
+    
 
 8. **IP OWNERSHIP**
 

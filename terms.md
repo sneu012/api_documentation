@@ -16,7 +16,7 @@ In these API Terms of Use (“Terms”) “RxNT” refers to Networking Technolo
      b. Entity Level Acceptance 
   If you are using the RxNT API on behalf of an entity, you represent and warrant that you have authority to bind that entity to the Terms and by accepting the Terms, you are doing so on behalf of that entity (and all references to “you” in the Terms refer to that entity).
 
-3. CHANGES
+3. **CHANGES**
 
     a. To RxNT API
     RxNT may modify or update the RxNT API from time to time. We will try to ensure, as far as possible, that future version(s) of the RxNT API are backwards compatible with at least the most recent previous version, but cannot guarantee that this will always be possible. You should adapt your app to use the most up-to-date version of the RxNT API promptly following release by RxNT.  

@@ -94,4 +94,4 @@ Pursuant to requirements set forth by the ONC for electronic health record (“E
 
     These Terms shall be governed by and construed in accordance with the laws of the Commonwealth of Massachusetts.  Any and all claims arising out of or relating to these Terms shall be brought in a state or federal court of competent jurisdiction in the Commonwealth of Massachusetts.  You consent to the personal and subject matter jurisdiction of the state and/or federal courts located in the Commonwealth of Massachusetts and waive (a) any objection to jurisdiction or venue, or (b) any defense claiming lack of jurisdiction or improper venue, in any action brought in such courts.
 
-<center> Networking Technology, Inc. | 1449 Whitehall Road, Annapolis, MD 21409 </center>
+|<center> Networking Technology, Inc. | 1449 Whitehall Road, Annapolis, MD 21409 </center>|

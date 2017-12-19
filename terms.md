@@ -10,43 +10,43 @@ In these API Terms of Use (“Terms”) “RxNT” refers to Networking Technolo
 
 2. **ACCEPTING THE TERMS**
 
-    a. Legal Age
+    a. **Legal Age**
     
     You represent and warrant that you are at least 18 years of age and that you possess the legal right and ability to agree to these Terms and to use the RxNT API in accordance with these Terms.
 
-     b. Entity Level Acceptance 
+     b. **Entity Level Acceptance** 
      
     If you are using the RxNT API on behalf of an entity, you represent and warrant that you have authority to bind that entity to the Terms and by accepting the Terms, you are doing so on behalf of that entity (and all references to “you” in the Terms refer to that entity).
 
 3. **CHANGES**
 
-    a. To RxNT API
+    a. **To RxNT API**
     
     RxNT may modify or update the RxNT API from time to time. We will try to ensure, as far as possible, that future version(s) of the RxNT API are backwards compatible with at least the most recent previous version, but cannot guarantee that this will always be possible. You should adapt your app to use the most up-to-date version of the RxNT API promptly following release by RxNT.  
 
-    b. To RxNT API Terms of Use
+    b. **To RxNT API Terms of Use**
     
     RxNT may change and update these Terms from time to time, and will publish any changes on this page.  Make sure to check this page for any updates.  Your continued use of the API after any such changes constitutes your acceptance of the new terms.   If you are unable to comply with any amended version of the Terms, you should stop use of the RxNT API immediately.
 
 4. **RESPONSIBILITIES AND REPRESENTATIONS**
 
-    a. Compliance
+    a. **Compliance**
     
     You agree to comply with all applicable laws, rules and regulations relating to the use of the RxNT API.
 
-    b. Registration
+    b. **Registration**
     
      You agree to register your app with an HCO that has implemented the RxNT API.  You represent and warrant that the registration information you provide to HCO is accurate.
 
-    c. App
+    c. **App**
     
     You represent and warrant that your app is stable.
 
-    d. Support
+    d. **Support**
     
     You agree to provide meaningful customer support for your app and to make it easy for customers to contact you with questions and concerns.
 
-    e. Privacy Policy
+    e. **Privacy Policy**
     
     You agree to provide and comply with a publicly accessible privacy policy.  
 

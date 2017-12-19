@@ -6,7 +6,7 @@ In these API Terms of Use (“Terms”) “RxNT” refers to Networking Technolo
 
 1. **OFFICE OF THE NATIONAL COORDINATOR FOR HEALTH INFORMATION TECHNOLOGY (“ONC”)**
 
-        Pursuant to requirements set forth by the ONC for electronic health record (“EHR”) software to meet in order to be certified EHR for the 2015 edition, RxNT has made available the RxNT API via this site to enable retrieval of patient information from the RxNT EHR.
+    Pursuant to requirements set forth by the ONC for electronic health record (“EHR”) software to meet in order to be certified EHR for the 2015 edition, RxNT has made available the RxNT API via this site to enable retrieval of patient information from the RxNT EHR. 
 
 2. **ACCEPTING THE TERMS **
 
@@ -18,11 +18,11 @@ In these API Terms of Use (“Terms”) “RxNT” refers to Networking Technolo
 
 3. CHANGES
 
-        a. To RxNT API
-        RxNT may modify or update the RxNT API from time to time. We will try to ensure, as far as possible, that future version(s) of the RxNT API are backwards compatible with at least the most recent previous version, but cannot guarantee that this will always be possible. You should adapt your app to use the most up-to-date version of the RxNT API promptly following release by RxNT.  
+    a. To RxNT API
+    RxNT may modify or update the RxNT API from time to time. We will try to ensure, as far as possible, that future version(s) of the RxNT API are backwards compatible with at least the most recent previous version, but cannot guarantee that this will always be possible. You should adapt your app to use the most up-to-date version of the RxNT API promptly following release by RxNT.  
 
-        b. To RxNT API Terms of Use
-        RxNT may change and update these Terms from time to time, and will publish any changes on this page.  Make sure to check this page for any updates.  Your continued use of the API after any such changes constitutes your acceptance of the new terms.   If you are unable to comply with any amended version of the Terms, you should stop use of the RxNT API immediately.
+b. To RxNT API Terms of Use
+    RxNT may change and update these Terms from time to time, and will publish any changes on this page.  Make sure to check this page for any updates.  Your continued use of the API after any such changes constitutes your acceptance of the new terms.   If you are unable to comply with any amended version of the Terms, you should stop use of the RxNT API immediately.
 
 4. **RESPONSIBILITIES AND REPRESENTATIONS**
 

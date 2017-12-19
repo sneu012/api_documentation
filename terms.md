@@ -1,4 +1,4 @@
-<center>###TERMS OF USE</center>
+## TERMS OF USE
 
 Thank you for using the RxNT Clinical Data API.
 
@@ -16,7 +16,7 @@ In these API Terms of Use (“Terms”) “RxNT” refers to Networking Technolo
 
      b. Entity Level Acceptance 
      
-  If you are using the RxNT API on behalf of an entity, you represent and warrant that you have authority to bind that entity to the Terms and by accepting the Terms, you are doing so on behalf of that entity (and all references to “you” in the Terms refer to that entity).
+    If you are using the RxNT API on behalf of an entity, you represent and warrant that you have authority to bind that entity to the Terms and by accepting the Terms, you are doing so on behalf of that entity (and all references to “you” in the Terms refer to that entity).
 
 3. **CHANGES**
 

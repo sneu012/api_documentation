@@ -1,4 +1,4 @@
-## TERMS OF USE
+<center>## TERMS OF USE</center>
 
 Thank you for using the RxNT Clinical Data API.
 

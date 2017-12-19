@@ -252,4 +252,4 @@ Sample Response
   ```
 In order to get patient data for a specific date, fields FromDate and ToDate should be same.
   
-### [Click Here to View RxNTs Privacy Policy](https://www.rxnt.com/privacy-policy/)
+### [Click Here to View Terms and Conditions](https://sneu012.github.io/api_documentation/test)

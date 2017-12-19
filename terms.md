@@ -2,7 +2,7 @@
 
 Thank you for using the RxNT Clinical Data API.
 
-In these API Terms of Use (“Terms”) “RxNT” refers to Networking Technology, Inc. the API software vendor, and “HCO” refers to the Health Care Organization that has implemented the RxNT API software.  These Terms govern your access to and use of the RxNT API.  By accessing or using the RxNT API, the App Developer (“You”), agree to be bound by these Terms.  
+In these API Terms of Use (“Terms”) “RxNT” refers to Networking Technology, Inc. the API software vendor, and "this site" refers to "RxNT.com", “HCO” refers to the Health Care Organization that has implemented the RxNT API software.  These Terms govern your access to and use of the RxNT API.  By accessing or using the RxNT API, the App Developer (“You”), agree to be bound by these Terms.
 
 1. **OFFICE OF THE NATIONAL COORDINATOR FOR HEALTH INFORMATION TECHNOLOGY (“ONC”)**
 
@@ -103,6 +103,6 @@ In these API Terms of Use (“Terms”) “RxNT” refers to Networking Technolo
 
 15. **APPLICABLE LAW**
 
-    These Terms shall be governed by and construed in accordance with the laws of the state of Maryland.  Any and all claims arising out of or relating to these Terms shall be brought in a state or federal court of competent jurisdiction.  You consent to the personal and subject matter jurisdiction of the state and/or federal courts and waive (a) any objection to jurisdiction or venue, or (b) any defense claiming lack of jurisdiction or improper venue, in any action brought in such courts.
+    These Terms shall be governed by and construed in accordance with the laws of the state of Maryland.  Any and all claims arising out of or relating to these Terms shall be brought in a state or federal court of competent jurisdiction in the state of Maryland. You consent to the personal and subject matter jurisdiction of the state and/or federal courts located in the state of Maryland and waive (a) any objection to jurisdiction or venue, or (b) any defense claiming lack of jurisdiction or improper venue, in any action brought in such courts.
 
-<center>  | Networking Technology, Inc. dba “RxNT”|1449 Whitehall Road, Annapolis, MD 21409|800-943-7968 |  </center>
+<center> Networking Technology, Inc. dba “RxNT”|1449 Whitehall Road, Annapolis, MD 21409 | 800-943-7968 </center>

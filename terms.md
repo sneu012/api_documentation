@@ -4,10 +4,11 @@ Thank you for using the RxNT Clinical Data API.
 
 In these API Terms of Use (“Terms”) “RxNT” refers to Networking Technology, Inc. the API software vendor, and “HCO” refers to the Health Care Organization that has implemented the RxNT API software.  These Terms govern your access to and use of the RxNT API.  By accessing or using the RxNT API, the App Developer (“You”), agree to be bound by these Terms.  
 
-1. OFFICE OF THE NATIONAL COORDINATOR FOR HEALTH INFORMATION TECHNOLOGY (“ONC”)
+**1. OFFICE OF THE NATIONAL COORDINATOR FOR HEALTH INFORMATION TECHNOLOGY (“ONC”)**
+
 Pursuant to requirements set forth by the ONC for electronic health record (“EHR”) software to meet in order to be certified EHR for the 2015 edition, RxNT has made available the RxNT API via this site to enable retrieval of patient information from the RxNT EHR.
 
-2. ACCEPTING THE TERMS
+**2. ACCEPTING THE TERMS**
 
     a. Legal Age
     You represent and warrant that you are at least 18 years of age and that you possess the legal right and ability to agree to these Terms and to use the RxNT API in accordance with these Terms.

@@ -46,8 +46,8 @@ Pursuant to requirements set forth by the ONC for electronic health record (“E
 
 6. RxNT API RESTRICTIONS
 
-  When using the RxNT API, you may not (or allow those acting on your behalf to):
-
+    When using the RxNT API, you may not (or allow those acting on your behalf to):
+    
     a. Sell, lease or sublicense the RxNT API or any data derived through the RxNT API 
     b. Reverse engineer or attempt to extract the source code from any API or any related software, except to the extent that this restriction is expressly prohibited by applicable law. 
     c. Perform an Action with the intent of introducing to the RxNT API any viruses, defects, malware, or any items of a destructive nature. 
@@ -55,7 +55,7 @@ Pursuant to requirements set forth by the ONC for electronic health record (“E
 
 7. RxNT API LIMITATIONS
 
-  RxNT sets and enforces limits on your use of the RxNT API, in our sole discretion, without notice or liability.   RxNT reserves the right to:  
+    RxNT sets and enforces limits on your use of the RxNT API, in our sole discretion, without notice or liability.   RxNT reserves the right to:  
 
     a. Rate limit or block apps that make a large number of calls to the RxNT API 
     b. Disable, restrict or remove your app’s access to the RxNT API 

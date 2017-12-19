@@ -59,7 +59,6 @@ In these API Terms of Use (“Terms”) “RxNT” refers to Networking Technolo
     When using the RxNT API, you may not (or allow those acting on your behalf to):
     
     a. Sell, lease or sublicense the RxNT API or any data derived through the RxNT API
-    
     b. Reverse engineer or attempt to extract the source code from any API or any related software, except to the extent that this restriction is expressly prohibited by applicable law. 
     
     c. Perform an Action with the intent of introducing to the RxNT API any viruses, defects, malware, or any items of a destructive nature. 

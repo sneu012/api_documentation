@@ -105,4 +105,4 @@ In these API Terms of Use (“Terms”) “RxNT” refers to Networking Technolo
 
     These Terms shall be governed by and construed in accordance with the laws of the state of Maryland.  Any and all claims arising out of or relating to these Terms shall be brought in a state or federal court of competent jurisdiction in the state of Maryland. You consent to the personal and subject matter jurisdiction of the state and/or federal courts located in the state of Maryland and waive (a) any objection to jurisdiction or venue, or (b) any defense claiming lack of jurisdiction or improper venue, in any action brought in such courts.
 
-<center> Networking Technology, Inc. dba “RxNT”|1449 Whitehall Road, Annapolis, MD 21409 | 800-943-7968 </center>
+<center> Networking Technology, Inc. dba “RxNT” | 1449 Whitehall Road, Annapolis, MD 21409 | 800-943-7968 </center>
